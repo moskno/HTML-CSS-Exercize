@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(165, 222, 234);
+    text-align: center;
+    line-height: 2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.front{
+    width: 300px;
+    border: 15px solid rgb(67, 26, 215);
+    padding: 50px;
+    margin: 20px;
+}
+
+#banr{
+    padding-left: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    max-width: 50rem;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
